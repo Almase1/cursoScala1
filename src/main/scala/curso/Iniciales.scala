@@ -1,6 +1,7 @@
 package curso
 
 object Iniciales {
+
   def main(args: Array[String]): Unit = {
     var nombre = scala.io.StdIn.readLine("Introduce el nombre")
     var ape1 = scala.io.StdIn.readLine("Introduzca el apellido1")
