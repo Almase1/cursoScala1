@@ -9,6 +9,17 @@ object ParametrosVariables extends App{
   {
     println("El numero total es:"+numeros.length)
 
+    var mayor=0
+    //Con un foreach
+    numeros.foreach( x => {if (x>mayor) mayor=x }   )
+
+    //Con un bucle tradicional
+    /*
+    for(n <- numeros)
+      {
+        if (n > mayor) mayor=n
+      }*/
+    println("El mayor es:"+mayor)
   }
 
 }
